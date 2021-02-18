@@ -5,159 +5,34 @@
         Google
     </title>
 
-<style>
-    html {
-        font-family: Arial;
-    }
-
-
-    header {
-        position:fixed;
-        width: 100%;
-        top: 2%;
-    }
-
-    footer {
-        background-color: #ededed;
-        position: fixed;
-        bottom: 0;
-        color:gray;
-        width: 100%;
-        
-    }
-    .push {
-        margin-left: auto;
-    
-
-    }
-    ul {
-        margin: 0;
-        list-style-type: none;
-
-    }
-
-    nav li {
-        display: inline;
-    }
-
-    nav li a {
-        color: #363636;
-        text-decoration: none;
-        
-    }
-
-    nav li a:hover {
-        text-decoration:underline;
-
-    }
-    
-    
-    .right-side {
-        float: right;
-        width: 15%;
-
-    }
-
-    .left-side {
-        float: left;
-        width: 30%;
-    
-    }
-
-    .center-side {
-        float: center;
-        width: 50%
-    }
-    
-    .iamfeeling:hover {
-        color: red;
-    }
-
-    .googlelogo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 3%;
-
-    }
-
-    form {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .submittext {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        border-radius: 25px;
-        height: 40px;
-        margin-bottom: 3%;
-        border: 1px solid #ccc;
-        
-    }
-
-    .submittext:hover {
-        box-shadow: 0 0 2px 2px rgb(190, 190, 190);
-
-
-    }
-
-    .centerforms {
-        margin-top: 20%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-            }
-    
-    .button-group {
-        background-color: transparent;
-        display: block;
-        border-radius: none;
-
-    }
-    .button-group input {
-        border: none;
-        background-color: none;
-        display: inline-block;
-    }
-
-    .submitbuttons {
-        display: block;
-        float: center;
-    }
-
-
-
-</style>
+<link rel="stylesheet" href="./style.css">
 </head>
 
     <body>
 
 
         <header>
-            <nav class="main-nav">
+        </header>
+            <nav class="nav-content">
                 <ul>
-                    <li class="left-side">
-                        <a href="about">About</a>
-                        <a href="store">Store</a>
-                    </li>
-
-                    <li class="right-side">
-                        <a href="gmail">Gmail</a>
-                        <a href="image">Images</a>
-                    </li>
+                    <!---<li class="left-side"></li> --->
+                    <li ><a href="about">About</a></li>
+                    <li><a href="store">Store</a></li>
+                    <li class="push"><a href="gmail">Gmail</a></li>
+                    <li><a href="image">Images</a></li>
+                    <li><a href="list" ><img src="list.png" class="listicon"></a></li>
+                    <li><a href="signin" class="signin-button">Sign In</a></li>
+                    
                 </ul>
             </nav>
-        </header>
+
 
         <div class="centerforms">
 
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo" class="googlelogo">
             <form>
-                <input type="text" class=submittext>
+                    <input type="text" class=submittext>
+                
                 <div class="button-group">
                     <button><input type="submit" value="Google Search" class= "submitbuttons"></button>
                     <button><input type="submit" class= "submitbuttons" id="iamfeeling" value="I am feeling lucky"></button>
@@ -170,19 +45,14 @@
         <footer>
             <nav class="footer-nav">
                 <ul>
-                    <li class="left-side">
-                        <a href="advertising">Advertising</a>
-                        <a href="business">Business</a>
-                        <a href="howsearchworks">How Search Works</a>
-                    </li>    
-                    <li class="center-side">
-                        Carbon neutral since 2007
-                    </li>
-                    <li class="right-side">    
-                        <a href="privacy" class="push">Privacy</a>
-                        <a href="terms" class="push">Terms</a>
-                        <a href="settings" class="push">Settings</a>
-                    </li>
+                    <li><a href="advertising">Advertising</a></li>
+                    <li><a href="business">Business</a></li>
+                    <li><a href="howsearchworks">How Search Works</a></li>
+                    <li class="push">Carbon neutral since 2007</li>
+                    <li class="push"><a href="privacy">Privacy</a></li>
+                    <li><a href="terms">Terms</a></li>
+                    <li><a href="settings">Settings</a></li>
+                    
         </footer>
 </body>
 </html>
@@ -192,9 +62,9 @@ footer
 
 textbox magnifier
 textbox voice
+textbox size to rectangle bigger
 
 
-im feeling luck hover random
 
 header square
 header signin box
