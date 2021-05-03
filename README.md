@@ -1,5 +1,12 @@
 # google-homepage
-This is the correct google home page readme file.
+Built a google.com homepage.
 
-live site
-https://brianhuhcodes.github.io/google-homepage/
+The livesite can be accessed [here](https://brianhuhcodes.github.io/google-homepage/) (https://brianhuhcodes.github.io/google-homepage/)
+
+## Learning Goals
+Utilizing
+* git
+* github
+* CSS
+* HTML
+
